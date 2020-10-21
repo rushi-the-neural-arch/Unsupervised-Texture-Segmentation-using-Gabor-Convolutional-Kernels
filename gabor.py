@@ -267,7 +267,7 @@ def main():
                         type=float, required=False)
     parser.add_argument('-c', help='Output grey? True/False, DEFAULT = False', nargs='?', const=False, default=False,
                         type=bool, required=False)
-    parser.add_argument('-i', help='Print intermediate results (filtered/feature images)? True/False, DEFAULT = False', nargs='?', const=False, default=False,
+    parser.add_argument('-i', help='Print intermediate results (filtered/feature images)? True/False, DEFAULT = True', nargs='?', const=False, default=True,
                         type=bool, required=False)
 
     args = parser.parse_args()
